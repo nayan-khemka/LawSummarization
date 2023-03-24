@@ -1,20 +1,10 @@
-# DELSumm : Incorporating Domain Knowledge for Extractive Summarization of Legal Case Documents
+# Using Domain Knowledge for Extractive Summarization of Legal Case Documents
 
 ## Introduction
-This is the repository for the paper titled "Incorporating Domain Knowledge for Extractive Summarization of Legal Case Documents" accepted at the <a href="https://icail.lawgorithm.com.br/">18th International Conference on Artificial Intelligence and Law (ICAIL) 2021</a>.
 
-DELSumm is an unsupervised extractive legal-domain specific algorithm that can summarize case documents. The input to the algorithm is a case document with each sentence labelled by its rhetorical role (Facts, Issue, Final Judgement, Arguments etc.) and a set of guidelines as to how much representation each rhetorical segment should have in the summary, if the summary is expected to contain statute words more than content words and others (details later) along with the desired summary length. DELSumm outputs a summary that adhres to the above guidelines. Its internal working involves Integer Linear Programming (ILP) based optimization setup. Refer to the paper for details.
+This is an unsupervised extractive legal-domain specific algorithm that can summarize case documents. The input to the algorithm is a case document with each sentence labelled by its rhetorical role (Facts, Issue, Final Judgement, Arguments etc.) and a set of guidelines as to how much representation each rhetorical segment should have in the summary, if the summary is expected to contain statute words more than content words and others (details later) along with the desired summary length. It outputs a summary that adhres to the above guidelines. Its internal working involves Integer Linear Programming (ILP) based optimization setup.
 
-## Citation
-If you use this dataset or the codes, please refer to the following paper:
-```
-  @inproceedings{bhattacharya-icail2021,
-   author = {Bhattacharya, Paheli and Poddar, Soham and Rudra, Koustav and Ghosh, Kripabandhu and Ghosh, Saptarshi},
-   title = {{Incorporating Domain Knowledge for Extractive Summarization of Legal Case Documents}},
-   booktitle = {{Proceedings of the 18th International Conference on Artificial Intelligence and Law (ICAIL)}},
-   year = {2021}
-  }
-```
+
 
 ## Requirements
 - python = 3.7.3
